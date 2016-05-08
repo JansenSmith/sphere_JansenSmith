@@ -1,4 +1,4 @@
-double size=40;
 //create a sphere
-CSG sphere = new Sphere(size).toCSG()
+CSG sphere = new Sphere(40)// Spheres radius
+				.toCSG()// convert to CSG to display
 return sphere
