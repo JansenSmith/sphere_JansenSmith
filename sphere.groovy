@@ -4,7 +4,7 @@ CSG sphere = new Sphere(100)// Spheres radius
 				.movex(200)
 CSG sphereHighRes = new Sphere(100,// Spheres radius
 						40,//elevation Divisions
-						80)// vertical divisions
+						40)// vertical divisions
 						.toCSG()// convert to CSG to display
 
 return [sphere,sphereHighRes]
