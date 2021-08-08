@@ -10,6 +10,7 @@ CSG sphereHighRes = new Sphere(25,// Spheres radius
 sphereHighRes = sphereHighRes.movex(110)
 
 
-CSG vitamin_brushlessMotor_GBM2804H_100T = Vitamins.get("brushlessMotor", "GBM2804H_100T")
+CSG vitamin_hobbyServo_towerProMG91 = Vitamins.get("hobbyServo", "towerProMG91")
 
-return [sphere,sphereHighRes, vitamin_brushlessMotor_GBM2804H_100T]
+
+return [sphere,sphereHighRes, vitamin_hobbyServo_towerProMG91]
